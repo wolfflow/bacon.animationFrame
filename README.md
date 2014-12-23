@@ -2,7 +2,7 @@
 
 Leverage requestAnimationFrame in [Bacon.js](https://github.com/baconjs/bacon.js) way!
 
-# Methods
+## Methods
 
 <a name="bacon-scheduleanimationframe"></a>
 [`Bacon.scheduleAnimationFrame`](#bacon-scheduleanimationframe "Bacon.scheduleAnimationFrame(): EventStream[Number]")
@@ -15,8 +15,7 @@ Returns an EventStream with requestID values produced on each animationFrame tic
 Repeats given elements indefinitely on nth frame (divisor parameter, default value is 1).
 Similar to [Bacon.repeatedly](https://github.com/baconjs/bacon.js#bacon-repeatedly), but uses `requestAnimationFrame` instead of `setTimeout/setInterval`
 
-Install
-=======
+## Install
 
 If you're targeting to [node.js](http://nodejs.org/), you can
 
