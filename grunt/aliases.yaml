@@ -1,0 +1,4 @@
+default:
+  - 'livescript'
+  - 'uglify'
+  - 'browserify'

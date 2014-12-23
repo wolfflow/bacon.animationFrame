@@ -1,0 +1,35 @@
+{
+  "name": "bacon.animationFrame",
+  "version": "0.1.0",
+  "author": "Daniel K",
+  "licenses": [
+    "MIT"
+  ],
+  "dependencies": {
+    "baconjs": "~0.7.8"
+  },
+  "devDependencies": {
+    "LiveScript": "^1.3.1",
+    "browserify": "^7.0.3",
+    "chai": "1.9.0",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.2.1",
+    "grunt-cli": "0.1.13",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-copy": "~0.4.0",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-livescript": "^0.5.1",
+    "grunt-mocha": "^0.4.11",
+    "liveify": "^1.3.1",
+    "load-grunt-config": "^0.16.0",
+    "load-grunt-tasks": "^1.0.0",
+    "mocha": "^2.1.0",
+    "mocha-phantomjs": "^3.5.2",
+    "phantomjs": "^1.9.13",
+    "uglify": "^0.1.1"
+  },
+  "scripts": {
+    "test": "./run-tests"
+  },
+  "main": "dist/bacon.animationFrame.js"
+}

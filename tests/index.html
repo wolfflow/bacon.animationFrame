@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Browser Tests</title>
+  <link rel="stylesheet" href="../node_modules/mocha/mocha.css" />
+</head>
+<body>
+  <div id="mocha"></div>
+  <script src="../node_modules/baconjs/dist/Bacon.js"></script>
+  <script src="../node_modules/mocha/mocha.js"></script>
+  <script>mocha.setup('bdd')</script>
+  
+  <script src="./bacon.animationFrame.spec.js"></script>
+  <script>
+  if (window.mochaPhantomJS) { 
+    mochaPhantomJS.run(); 
+  } else {
+    mocha.run();
+  }
+  </script>
+</body>
+</html>
