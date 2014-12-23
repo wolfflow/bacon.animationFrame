@@ -1,5 +1,5 @@
 {
-  "name": "bacon.animationFrame",
+  "name": "bacon.animationframe",
   "version": "0.1.0",
   "main": "dist/bacon.animationFrame.js",
   "ignore": ["browsertest", "examples", "src", "test", "./*.*", "build", "release", "run-tests", "version"]
