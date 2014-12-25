@@ -17,7 +17,7 @@ Similar to [Bacon.repeatedly](https://github.com/baconjs/bacon.js#bacon-repeated
 
 ## Install
 
-If you're targeting to [node.js](http://nodejs.org/), you can
+For [node.js](http://nodejs.org/) users
 
     npm install bacon.animationframe
 
