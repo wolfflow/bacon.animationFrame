@@ -1,12 +1,34 @@
 {
   "name": "bacon.animationframe",
-  "version": "0.2.1",
-  "author": "Daniel K",
+  "version": "0.2.2",
+  "keywords": [
+    "bacon.js",
+    "bacon",
+    "frp",
+    "functional",
+    "reactive",
+    "programming",
+    "animation",
+    "requestanimationframe",
+    "animationframe",
+    "time",
+    "polling",
+    "scheduler"
+  ],
+  "author": {
+    "name": "Daniel K",
+    "email": "x.flowwolf@gmail.com",
+    "url": "https://twitter.com/xflowwolf"
+  },
   "licenses": [
     "MIT"
   ],
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/wolfflow/bacon.animationFrame.git"
+  },
   "dependencies": {
-    "baconjs": "~0.7.8"
+    "baconjs": "^0.7.8"
   },
   "devDependencies": {
     "LiveScript": "^1.3.1",
@@ -29,7 +51,8 @@
     "uglify": "^0.1.1"
   },
   "scripts": {
-    "test": "./run-tests"
+    "test": "./run-tests",
+    "prepublish": "node_modules/grunt-cli/bin/grunt"
   },
   "main": "dist/bacon.animationFrame.js"
 }
