@@ -12,7 +12,7 @@ Returns an EventStream with requestID values produced on each animationFrame tic
 <a name="bacon-repeatedlyonframe"></a>
 [`Bacon.repeatedlyOnFrame(values, divisor)`](#bacon-repeatedlyonframe "Bacon.repeatedlyOnFrame(values: Array[A], divisor: Number): EventStream[A]")
 
-Repeats given elements indefinitely on nth frame (divisor parameter, default value is 1).
+Repeats given elements infinitely on nth frame (divisor parameter, default value is 1).
 Similar to [Bacon.repeatedly](https://github.com/baconjs/bacon.js#bacon-repeatedly), but uses `requestAnimationFrame` instead of `setTimeout/setInterval`
 
 ## Install
